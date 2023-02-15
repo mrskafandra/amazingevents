@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+a {
+   
+    text-decoration: none;    
+}
+#linkr{
+    display: flex;
+    margin-right: ;
+}
+span {
+    font-size: 100px;
+    color: black;
+}
+
+.container{
+width: 300px;
+margin-left: 10px;
+}
+
+.nav{
+    display: flex;
+    gap: 10px;
+    margin-right: 10px;
+
+}
+.navbar{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+.home-banner {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#f8d7da ;
+    
+}
+h1 {
+    
+    display: inline-block;
+    
+}
+.row>div>img{
+    width: 50px;
+    margin-left: 30px;
+
+}
+.search{
+    padding-right: 100px;
+}
+.btn-card {
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.nav-pills > li > a.active {
+    background-color: #d50065 !important;
+}
+.container-contact {
+    padding-top: 5rem;
+    padding-bottom: 7rem;
+    width: 600px;
+    position: relative;
+}
+
+#btn-submit {
+    position: absolute; 
+    right: 1px;
+
+
+}
+#contact {
+    display: flex;
+    justify-content: center;
+}
+table {
+    
+}
+th, td, tr {
+    border:1px solid black;
+    padding: 10px;
+  }
+
+  tr > th {
+    background-color: grey;
+  }
+  
