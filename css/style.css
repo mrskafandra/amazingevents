@@ -92,4 +92,16 @@ th, td, tr {
     background-color: grey;
   }
   
-  section;
+.filter {
+    display: none;
+   
+}
+
+body{
+    min-height: 100vh;
+}
+
+#detFooter {
+    position: sticky;
+    top: 100%;
+}

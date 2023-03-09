@@ -1,9 +1,9 @@
 
- export const data = {
+ const data = {
     "currentDate": "2022-01-01",
     "events": [
       {
-        _id: 1,
+        id: 1,
         "image":"https://amazingeventsapi.herokuapp.com/api/img/Feriadecomidas7.jpg",
         "name":"Collectivities Party",
         "date":"2021-12-12",
