@@ -105,3 +105,11 @@ body{
     position: sticky;
     top: 100%;
 }
+
+table{
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+

@@ -1,3 +1,9 @@
+
+
+
+
+fetch(urlApi).then(response => response.json()).then((data) => {
+
 let queryString = location.search;
 console.log(queryString);
 
@@ -21,3 +27,6 @@ document.querySelector('#cardscontainer').innerHTML = `<div class="col-lg-9 pt-5
 </div>
 </div>
 </div>`;
+
+
+}).catch(error => console.log(error));

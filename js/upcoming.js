@@ -1,5 +1,7 @@
 
 
+fetch(urlApi).then(response => response.json()).then((data) => {
+
 let htmlEvents = "";
 for (let elemento of data.events) {
     let currentDate = new Date(data.currentDate);
@@ -66,3 +68,4 @@ function serchFilters(input, selector) {
 }
 serchFilters(".search", ".card");
 
+}).catch(error => console.log(error));

@@ -1,9 +1,12 @@
 
+fetch(urlApi).then(response => response.json()).then((data) => {
 
 let htmlEvents = "";
 for (let elemento of data.events) {
     let currentDate = new Date(data.currentDate);
     let eventDate = new Date(elemento.date);
+
+    
 
     if (eventDate < currentDate) {
         console.log("evento pasado")
@@ -66,3 +69,5 @@ eventos.forEach(evento => {
 
 let inputCheck = document.getElementById('checkbox');
 inputCheck.innerHTML = checkCategory;
+
+}).catch(error => console.log(error));
