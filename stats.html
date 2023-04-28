@@ -42,96 +42,70 @@
 
     </header>
     <div class="home-banner">
-        <a id="linkl" href=""> <span>
+        <a id="linkl" href="./contact.html"> <span>
                 < </span> </a>
-        <h1>Stats</h1><a id="linkr" href=""><span id="">></span></a>
+        <h1>Stats</h1><a id="linkr" href="./index.html"><span id="">></span></a>
     </div>
 
-    
 
-        <table>
-            
-                <tr>
-                    <th colspan="3">Event Static</th>
-                </tr>
-            
-            <tbody>
-                <tr>
-                    <td>Event with the hightest percentage of attendience</td>
-                    <td>Events with the lowest percentage of attendance</td>
-                    <td>Event with larger capacity</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <th colspan="3">Upcoming events statics by category</th>
-                </tr>
-                <tr>
-                    <td>categories</td>
-                    <td>Revenues</td>
-                    <td>Percentage of attendance</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <th colspan="3">Past Events statics by category</th>
-                </tr>
-                <tr>
-                    <td>Categories</td>
-                    <td>Revenues</td>
-                    <td>Percentage of attendance</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </tbody>
-        </table>
-    
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="3">Event Static</th>
+            </tr>
+
+
+            <tr>
+                <th>Event with the hightest percentage of attendience</th>
+                <th>Events with the lowest percentage of attendance</th>
+                <th>Event with larger capacity</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+            <tr>
+                <td id="MaxPercentStatic"></td>
+                <td id="MinPercentStatic"></td>
+                <td id="largeCapacity"></td>
+            </tr>
+
+        </tbody>
+
+
+        <th colspan="3">Upcoming events statics by category</th>
+        </tr>
+        <thead>
+            <tr>
+                <th>categories</td>
+                <th>Revenues</td>
+                <th>Percentage of attendance</td>
+            </tr>
+        </thead>
+        <tbody id="upcoming">
+        </tbody>
+        
+        <th colspan="3">Past Events statics by category</th>
+        </tr>
+        <tr>
+            <th>Categories</td>
+            <th>Revenues</td>
+            <th>Percentage of attendance</td>
+        </tr>
+        <tbody id="past">
+
+        </tbody>
+
+    </table>
+
 
 
     <footer class="row bg-secondary p-2 ">
         <div class="col-xs-12 col-md-6 col-lg-10">
-            <img src="./asset/instagram.png" alt="instagram">
-            <img src="./asset/facebook.png" alt="facebook">
-            <img src="./asset/twitter.png" alt="twitter">
+            <a href=""><img src="./asset/instagram.png" alt="instagram"></a>
+            <a href=""><img src="./asset/facebook.png" alt="facebook"></a>
+            <a href=""><img src="./asset/twitter.png" alt="twitter"></a>
         </div>
         <div class="col-xs-12 col-md-6 col-lg-2 pt-3 text-white">
             <p class="h4 ">Cohort</p>
@@ -141,6 +115,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
+
+    <script src="./js/data.js"></script>
+    <script src="./js/stats.js"></script>
 </body>
 
 </html>

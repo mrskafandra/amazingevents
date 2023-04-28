@@ -14,7 +14,7 @@ a {
 }
 #linkr{
     display: flex;
-    margin-right: ;
+   
 }
 span {
     font-size: 100px;
@@ -48,7 +48,7 @@ h1 {
     display: inline-block;
     
 }
-.row>div>img{
+.row>div>a>img{
     width: 50px;
     margin-left: 30px;
 
@@ -82,9 +82,7 @@ h1 {
     display: flex;
     justify-content: center;
 }
-table {
-    
-}
+
 th, td, tr {
     border:1px solid black;
     padding: 10px;
@@ -94,3 +92,24 @@ th, td, tr {
     background-color: grey;
   }
   
+.filter {
+    display: none;
+   
+}
+
+body{
+    min-height: 100vh;
+}
+
+#detFooter {
+    position: sticky;
+    top: 100%;
+}
+
+table{
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
